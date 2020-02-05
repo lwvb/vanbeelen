@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Van Beelen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Open+Sans&display=swap" rel="stylesheet">
+  <!-- <script src="main.js"></script> -->
+  <style>
+    body {
+      padding: 2em;
+      padding-top: 4em;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-items: center;
+      font-family: 'Open Sans', sans-serif;
+      background: #ebedee;
+      color: #0d171c;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1, h2 {
+      font-family: 'Bangers', cursive;
+      color: #233d4d;
+      letter-spacing: 3px;
+    }
+    h1 {
+      grid-column: 1 / span 2;
+      width: 100%;
+      font-size: 4rem;
+      text-shadow: 2px 3px 0 #dd5742;
+    }
+    h2 {
+      font-size: 2.5rem;
+      text-shadow: 1px 1px 0 #ffba49;
+    }
+    .paper {
+      background: #fff8ee;
+      padding: 2rem;
+      box-shadow: 2px 3px 5px #ffba49;
+      width: 60%;
+      transform: rotateY(2deg) skew(3deg, 0deg);
+      border-radius: 5px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px auto;
+      grid-gap: 4rem;
+    }
+    .rounded {
+      border-radius: 50%;
+    }
+    h2 {
+      padding: 1rem;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+    a {
+      color: #233d4d;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #dd5742;
+    }
+    .icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      fill: #233d4d;
+      transform: translateY(0.4rem);
+      margin-right: 1rem;
+    }
+    a:hover .icon {
+      fill: #dd5742;
+    }
+    @media screen and (max-width: 500px) {
+      body {
+        padding-top: 2rem;
+      }
+      h1 {
+        grid-column: 1;
+        font-size: 3rem;
+        padding-bottom: 2rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body class="grid">
+  <!-- https://coolors.co/dd5742-0d171c-233d4d-ebedee-ffeccd
+  https://coolors.co/dd5742-0d171c-233d4d-ffba49-fff8ee -->
+  <h1>Van Beelen family</h1>
+  <div class="paper">
+    <h2>Réka</h2>
+    <nav>
+      <a href="https://www.instagram.com/sapadtribizli/">
+        <svg class="icon" viewBox="0 0 32 32"><use xlink:href="#svg-instagram" /></svg>
+        Instagram
+      </a>
+      <a href="https://www.linkedin.com/in/r%C3%A9ka-anett-van-beelen-8891628a/">
+        <svg class="icon" viewBox="0 0 32 32"><use xlink:href="#svg-linkedin" /></svg>
+        Linkedin
+      </a>
+    </nav>
+  </div>  
+  <div class="paper">
+    <h2>Leendert</h2>
+    <nav>
+      <a href="https://www.instagram.com/leendertvanbeelen/">
+        <svg class="icon" viewBox="0 0 32 32"><use xlink:href="#svg-instagram" /></svg>
+        Instagram
+      </a>
+      <a href="https://www.linkedin.com/in/leendertvanbeelen/">
+        <svg class="icon" viewBox="0 0 32 32"><use xlink:href="#svg-linkedin" /></svg>
+        Linkedin
+      </a>
+      <a href="https://leendert.vanbeelen.page">
+        <svg class="icon" viewBox="0 0 32 32"><use xlink:href="#svg-earth" /></svg>
+        Blog
+      </a>
+    </nav>
+  </div>
+</body>
+</html>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" style="display: none">
+  <symbol id="svg-earth">
+    <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 30c-1.967 0-3.84-0.407-5.538-1.139l7.286-8.197c0.163-0.183 0.253-0.419 0.253-0.664v-3c0-0.552-0.448-1-1-1-3.531 0-7.256-3.671-7.293-3.707-0.188-0.188-0.442-0.293-0.707-0.293h-4c-0.552 0-1 0.448-1 1v6c0 0.379 0.214 0.725 0.553 0.894l3.447 1.724v5.871c-3.627-2.53-6-6.732-6-11.489 0-2.147 0.484-4.181 1.348-6h3.652c0.265 0 0.52-0.105 0.707-0.293l4-4c0.188-0.188 0.293-0.442 0.293-0.707v-2.419c1.268-0.377 2.61-0.581 4-0.581 2.2 0 4.281 0.508 6.134 1.412-0.13 0.109-0.256 0.224-0.376 0.345-1.133 1.133-1.757 2.64-1.757 4.243s0.624 3.109 1.757 4.243c1.139 1.139 2.663 1.758 4.239 1.758 0.099 0 0.198-0.002 0.297-0.007 0.432 1.619 1.211 5.833-0.263 11.635-0.014 0.055-0.022 0.109-0.026 0.163-2.541 2.596-6.084 4.208-10.004 4.208z"></path>
+  </symbol>
+  <symbol id="svg-facebook">
+    <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+  </symbol>
+  <symbol id="svg-instagram">
+    <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+    <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+    <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+  </symbol>
+  <symbol id="svg-linkedin">
+    <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+    <path d="M2 12h6v18h-6v-18z"></path>
+    <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+  </symbol>
+</svg>
